@@ -16,7 +16,7 @@ while True:
             count += 1
 
     if count > 1:
-        print('число составное')
+        print('число составное ')
 
     else:
         print('число простое')
