@@ -15,7 +15,7 @@ for i in range(10):
     print(f'у вас осталось {9 - i} попыток')
 
     if inp_numb < num:
-        print('Ваше число меньше')
+        print('Ваше число меньше ')
 
     if inp_numb > num:
         print('Ваше число больше')
