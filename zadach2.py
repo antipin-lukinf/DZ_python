@@ -10,6 +10,10 @@ while True:
     if number == 00:
         break
 
+    if number < 0 or number > 100000:
+        print("введенное число не попадает в диапазон 0..100 000")
+        break
+
     count = 0
     for i in range(1, number):
         if number % i == 0:
